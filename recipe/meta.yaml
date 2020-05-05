@@ -1,7 +1,6 @@
 {% set name = "pytest-metadata" %}
-{% set version = "1.8.0" %}
-{% set hash_type = "sha256" %}
-{% set hash = "2071a59285de40d7541fde1eb9f1ddea1c9db165882df82781367471238b66ba" %}
+{% set version = "1.9.0" %}
+{% set hash = "168d203abba8cabb65cf1b5fa675b0ba60dccbf1825d147960876a7e6f7c219c" %}
 
 package:
   name: {{ name }}
@@ -10,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
@@ -39,7 +38,7 @@ about:
   license: MPL 2.0
   license_family: OTHER
   license_file: LICENSE
-  summary: 'pytest plugin for test session metadata'
+  summary: pytest plugin for test session metadata
 
 extra:
   recipe-maintainers:
