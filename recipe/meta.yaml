@@ -1,6 +1,6 @@
 {% set name = "pytest-metadata" %}
-{% set version = "1.9.0" %}
-{% set hash = "168d203abba8cabb65cf1b5fa675b0ba60dccbf1825d147960876a7e6f7c219c" %}
+{% set version = "1.10.0" %}
+{% set hash = "b7e6e0a45adacb17a03a97bf7a2ef60cc1f4e172bcce9732ce5e814191932315" %}
 
 package:
   name: {{ name }}
