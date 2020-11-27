@@ -1,6 +1,6 @@
 {% set name = "pytest-metadata" %}
-{% set version = "1.10.0" %}
-{% set hash = "b7e6e0a45adacb17a03a97bf7a2ef60cc1f4e172bcce9732ce5e814191932315" %}
+{% set version = "1.11.0" %}
+{% set hash = "71b506d49d34e539cc3cfdb7ce2c5f072bea5c953320002c95968e0238f8ecf1" %}
 
 package:
   name: {{ name }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
     - setuptools_scm
