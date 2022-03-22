@@ -18,14 +18,13 @@ build:
 
 requirements:
   host:
-    - python
-    - setuptools
-    - setuptools_scm
+    - python >=3.7
+    - setuptools >=45.0
+    - setuptools_scm >=6.2.3
     - pytest >=2.9.0
 
   run:
-    - python
-    - setuptools
+    - python >=3.7
     - pytest >=2.9.0
 
 test:
@@ -34,7 +33,7 @@ test:
     - pytest_metadata.ci
 
 about:
-  home: https://github.com/davehunt/pytest-metadata
+  home: https://github.com/pytest-dev/pytest-metadata
   license: MPL 2.0
   license_family: OTHER
   license_file: LICENSE
