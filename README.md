@@ -1,7 +1,7 @@
 About pytest-metadata
 =====================
 
-Home: https://github.com/davehunt/pytest-metadata
+Home: https://github.com/pytest-dev/pytest-metadata
 
 Package license: MPL 2.0
 
