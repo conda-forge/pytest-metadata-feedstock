@@ -20,13 +20,11 @@ requirements:
   host:
     - pip
     - python >=3.7
-    - setuptools >=45.0
-    - setuptools_scm >=6.2.3
-    - pytest >=2.9.0
+    - poetry >=1.0.0
 
   run:
     - python >=3.7
-    - pytest >=2.9.0
+    - pytest >=3.0.0,<8.0.0
 
 test:
   imports:
