@@ -1,6 +1,6 @@
 {% set name = "pytest-metadata" %}
-{% set version = "2.0.2" %}
-{% set hash = "fcd2f416f15be295943527b3c8ba16a44ae5a7141939c90c3dc5ce9d167cf2a5" %}
+{% set version = "2.0.4" %}
+{% set hash = "fcc653f65fe3035b478820b5284fbf0f52803622ee3f60a2faed7a7d3ba1f41e" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest_metadata-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
