@@ -1,11 +1,11 @@
-About pytest-metadata
-=====================
+About pytest-metadata-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-metadata-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytest-dev/pytest-metadata
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-metadata-feedstock/blob/main/LICENSE.txt)
 
 Summary: pytest plugin for test session metadata
 
