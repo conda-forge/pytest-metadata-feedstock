@@ -25,7 +25,7 @@ requirements:
 
   run:
     - python >=3.7
-    - pytest >=3.0.0,<8.0.0
+    - pytest >=7.0.0,<8.0.0
 
 test:
   imports:
