@@ -1,6 +1,6 @@
 {% set name = "pytest-metadata" %}
-{% set version = "3.0.0" %}
-{% set hash = "769a9c65d2884bd583bc626b0ace77ad15dbe02dd91a9106d47fd46d9c2569ca" %}
+{% set version = "3.1.0" %}
+{% set hash = "53dcd8bbd101cf6ca97efb4a42a72fcbee5de173bddad4850f4ce9bb27e9f0f2" %}
 
 package:
   name: {{ name }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
